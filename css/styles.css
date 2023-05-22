@@ -3,7 +3,7 @@
 }
 
 .card {
-    margin: auto;
+    margin: 100px auto 0;
     border-radius: 30px;
     text-align: center;
     width: 350px;
@@ -26,4 +26,16 @@ p {
 h3 {
     font-weight: 700;
     font-size: 24px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
